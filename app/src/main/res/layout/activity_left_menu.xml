@@ -141,11 +141,12 @@
         </LinearLayout>
 
         <LinearLayout
-            android:onClick="onClick"
+            android:layout_marginLeft="10dp"
             android:id="@+id/shouye_container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
+            android:onClick="onClick"
             android:orientation="vertical">
 
 
@@ -171,11 +172,12 @@
         </LinearLayout>
 
         <LinearLayout
-            android:onClick="onClick"
+            android:layout_marginLeft="10dp"
             android:id="@+id/xilie_container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
+            android:onClick="onClick"
             android:orientation="vertical">
 
 
@@ -201,11 +203,12 @@
         </LinearLayout>
 
         <LinearLayout
-            android:onClick="onClick"
+            android:layout_marginLeft="10dp"
             android:id="@+id/muhou_container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
+            android:onClick="onClick"
             android:orientation="vertical">
 
 
@@ -232,14 +235,17 @@
 
     </LinearLayout>
 
-    <android.support.design.widget.FloatingActionButton
-        android:layout_alignParentBottom="true"
-        android:onClick="onClick"
+    <ImageView
         android:id="@+id/floatingButton"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:layout_width="wrap_content"
-        android:background="@mipmap/floatbutton_bg"
-        android:layout_height="wrap_content"/>
+        android:onClick="onClick"
+        android:src="@mipmap/floatbutton_bg"
+        />
 
 
 </RelativeLayout>
