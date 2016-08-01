@@ -85,7 +85,6 @@ public class DetailActivity extends AppCompatActivity {
         Intent intent = getIntent();
         url = intent.getStringExtra("url");
 
-        //Log.e("5678", "dddd"+url);
         mWebView.loadUrl(url);
 
 
