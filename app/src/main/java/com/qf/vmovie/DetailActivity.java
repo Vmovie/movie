@@ -47,6 +47,7 @@ public class DetailActivity extends AppCompatActivity {
         //初始化videoView
         initVideoView();
 
+
         //设置数据
         setData();
 
